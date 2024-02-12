@@ -22,6 +22,7 @@ subohanAllahIncrement.addEventListener('click', function(){
         document.getElementById('card1').style.backgroundColor="Coral";
         return alert('subohan allah complete. complete please another one ')
     }
+    document.getElementById('card1').style.backgroundColor="white";
     subohanAllahValue+=1;
     subohanAllahDisplay.innerText = subohanAllahValue;
    
@@ -32,6 +33,7 @@ subohanAllahDecrement.addEventListener('click', function(){
         document.getElementById('card1').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
+    document.getElementById('card1').style.backgroundColor="white";
     subohanAllahValue -=1;
     subohanAllahDisplay.innerText=subohanAllahValue;
 })
@@ -41,6 +43,7 @@ alhamdulillahIncrement.addEventListener('click', function(){
         document.getElementById('card2').style.backgroundColor="Coral";
         return alert('alhamdulillah complete. complete please another one ')
     }
+    document.getElementById('card2').style.backgroundColor="white";
     alhamdulillahValue+=1;
     alhamdulillahDisplay.innerText = alhamdulillahValue;
    
@@ -51,6 +54,7 @@ alhamdullillahDecrement.addEventListener('click', function(){
         document.getElementById('card2').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
+    document.getElementById('card2').style.backgroundColor="white";
     alhamdulillahValue -=1;
     alhamdulillahDisplay.innerText=alhamdulillahValue;
 })
@@ -61,6 +65,7 @@ allahHuIncrement.addEventListener('click', function(){
         document.getElementById('card3').style.backgroundColor="Coral";
         return alert('Allah hu Akbar complete. complete please another one ')
     }
+    document.getElementById('card3').style.backgroundColor="white";
     allahHuAkbarValue+=1;
     allahHuAkbarDisplay.innerText = allahHuAkbarValue;
    
@@ -71,6 +76,7 @@ allahHuDecrement.addEventListener('click', function(){
         document.getElementById('card3').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
+    document.getElementById('card3').style.backgroundColor="white";
     allahHuAkbarValue -=1;
     allahHuAkbarDisplay.innerText=allahHuAkbarValue;
 })
