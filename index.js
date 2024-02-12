@@ -17,7 +17,9 @@ let alhamdulillahValue=0;
 let allahHuAkbarValue=0;
 
 subohanAllahIncrement.addEventListener('click', function(){
+    
     if(subohanAllahValue === 33){
+        document.getElementById('card1').style.backgroundColor="Coral";
         return alert('subohan allah complete. complete please another one ')
     }
     subohanAllahValue+=1;
@@ -27,6 +29,7 @@ subohanAllahIncrement.addEventListener('click', function(){
 
 subohanAllahDecrement.addEventListener('click', function(){
     if(subohanAllahValue===0){
+        document.getElementById('card1').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
     subohanAllahValue -=1;
@@ -35,6 +38,7 @@ subohanAllahDecrement.addEventListener('click', function(){
 // -------------------Alhamdulillah -----------------
 alhamdulillahIncrement.addEventListener('click', function(){
     if(alhamdulillahValue === 33){
+        document.getElementById('card2').style.backgroundColor="Coral";
         return alert('alhamdulillah complete. complete please another one ')
     }
     alhamdulillahValue+=1;
@@ -44,6 +48,7 @@ alhamdulillahIncrement.addEventListener('click', function(){
 
 alhamdullillahDecrement.addEventListener('click', function(){
     if(alhamdulillahValue===0){
+        document.getElementById('card2').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
     alhamdulillahValue -=1;
@@ -53,6 +58,7 @@ alhamdullillahDecrement.addEventListener('click', function(){
 // --------------Allah hu akbar --------------------------
 allahHuIncrement.addEventListener('click', function(){
     if(allahHuAkbarValue === 33){
+        document.getElementById('card3').style.backgroundColor="Coral";
         return alert('Allah hu Akbar complete. complete please another one ')
     }
     allahHuAkbarValue+=1;
@@ -62,6 +68,7 @@ allahHuIncrement.addEventListener('click', function(){
 
 allahHuDecrement.addEventListener('click', function(){
     if(allahHuAkbarValue===0){
+        document.getElementById('card3').style.backgroundColor="Orange";
         return alert('You cant assign the negetgive value')
     }
     allahHuAkbarValue -=1;
@@ -70,6 +77,10 @@ allahHuDecrement.addEventListener('click', function(){
 // ------------------------Reset------------------------------------------
 const drubok = 0;
 reset.addEventListener('click', function(){
+    document.getElementById('card1').style.backgroundColor="white";
+    document.getElementById('card2').style.backgroundColor="white";
+    document.getElementById('card3').style.backgroundColor="white";
+
     subohanAllahDisplay.innerText=drubok;
     alhamdulillahDisplay.innerText=drubok;
     allahHuAkbarDisplay.innerText=drubok;
